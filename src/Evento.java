@@ -81,7 +81,7 @@ public class Evento {
         return true;
     }
 
-    public Asistente[] getInscripciones(){
-
+    public Inscripcion[] getInscripciones(){
+        return inscripciones.toArray(new Inscripcion[0]);
     }
 }
