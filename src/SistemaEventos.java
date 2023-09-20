@@ -50,7 +50,7 @@ public class SistemaEventos {
     }
 
     public String[][] listaEvento(){
-        String[][] out=new String[0][0];
+        String[][] eventosArray=new String[eventos.size()][4];
         return out;
     }
 
